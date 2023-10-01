@@ -1,0 +1,233 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Golos Text", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+/* N A V I G A T I O N */
+ul,
+li {
+  text-decoration: none;
+  list-style: none;
+}
+.container {
+  width: 950px;
+  margin: 0 auto;
+}
+
+.menu {
+  display: flex;
+  margin-top: 33px;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+.menu li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #070707;
+  white-space: nowrap;
+}
+
+.menu li {
+  margin-right: 153px;
+}
+
+hr {
+  margin: 0;
+  padding: 0;
+}
+/* EX - N A V I G A T I O N */
+
+.about-menu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  margin-bottom: 49px;
+}
+
+.about-menu li a {
+  text-decoration: none;
+  color: #070707;
+  padding: 0;
+  margin: 0;
+}
+
+.about-menu-item:nth-child(1) {
+  font-size: 47.3392px;
+  line-height: 59px;
+
+  margin-top: 40px;
+  margin-right: 297px;
+}
+.about-menu-item:nth-child(2) {
+  font-size: 18px;
+  line-height: 22px;
+  white-space: nowrap;
+
+  margin-top: 104px;
+  margin-right: 350px;
+}
+.about-menu-item:nth-child(3) {
+  font-size: 16px;
+  line-height: 20px;
+  white-space: nowrap;
+
+  margin-top: 60px;
+
+  transform: rotate(-90deg);
+}
+.header .container {
+  margin-bottom: 104px;
+}
+/* EX - H E A D E R */
+
+/* A B O U T ME */
+.aboutme {
+  background-color: #d4d3d3;
+  padding-top: 120px;
+}
+.about-me-hd {
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+
+  padding-bottom: 17px;
+}
+
+.about-me-info {
+  text-align: center;
+
+  padding: 0;
+  margin: 0;
+}
+
+.aboutme .container {
+  padding-bottom: 107px;
+}
+/* EX - A B O U T ME */
+
+/* S K I L L S */
+.skills .container {
+  padding-top: 91px;
+  padding-bottom: 111px;
+
+  text-align: center;
+}
+.skills-hd {
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+
+  padding-bottom: 70px;
+}
+
+.programms {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  margin: 0;
+  padding: 0;
+  padding-bottom: 83px;
+}
+
+.skills-list {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0;
+  padding: 0;
+}
+
+.skills-list p {
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+}
+/* EX - S K I L L S */
+.portfolio {
+  background-color: #d4d3d3;
+}
+
+.portfolio .container {
+  text-align: center;
+
+  padding-top: 112px;
+}
+
+.portfolio-hd {
+  font-size: 34px;
+  line-height: 42px;
+
+  margin-bottom: 47px;
+}
+
+.images-list {
+  padding: 0;
+  margin: 0;
+
+  text-decoration: underline;
+}
+
+.images-list-item p {
+  margin: 0;
+  padding: 33px 0 90px 0;
+}
+/* EX - S K I L L S */
+
+.footer .container {
+  padding-top: 114px;
+
+  text-align: center;
+}
+
+.contacts-hd {
+  font-size: 34px;
+  line-height: 42px;
+}
+
+.welcome {
+  font-size: 18px;
+  line-height: 22px;
+
+  margin-top: 20px;
+}
+
+.send-message {
+  background-color: #070707;
+  border-radius: 30px;
+  color: aliceblue;
+  font-size: 18px;
+  line-height: 22px;
+
+  padding: 13px 30px 12px 30px;
+}
+
+.button {
+  margin-top: 91px;
+  margin-bottom: 100px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+
+  margin: 85px 0 45px 0;
+  padding: 0;
+}
+
+.links-list:nth-child(1),
+.links-list:nth-child(2),
+.links-list:nth-child(3) {
+  margin-right: 60px;
+}
